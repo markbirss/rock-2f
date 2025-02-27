@@ -5,6 +5,14 @@ Meshtastic running on latest Arbmian on Raxda Rock 2F using my Starter Edition H
 ![image](https://github.com/user-attachments/assets/8ccbafa0-ce56-4e33-8606-491728911492)
 
 
+Rock 2F support recently landed
+https://github.com/armbian/build/pull/7820
+
+Compile a OS Image (Noble)
+```
+sudo ./compile.sh build BOARD=rock-2f BRANCH=vendor BUILD_DESKTOP=yes BUILD_MINIMAL=no DESKTOP_APPGROUPS_SELECTED= DESKTOP_ENVIRONMENT=gnome DESKTOP_ENVIRONMENT_CONFIG_NAME=config_base KERNEL_CONFIGURE=no RELEASE=noble DOWNLOAD_MIRROR=us
+```
+
 Compile and install the required spidev and i2c0 overlays
 ```
 git clone https://github.com/radxa-pkg/radxa-overlays
