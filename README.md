@@ -1,6 +1,7 @@
 # rock-2f
 
 Meshtastic running with latest Arbmian on Raxda Rock 2F using my Starter Edition HAT (GPIO to SPI)
+https://github.com/markbirss/lora-starter-edition-sx1262-i2c
 
 ![image](https://github.com/user-attachments/assets/8ccbafa0-ce56-4e33-8606-491728911492)
 
