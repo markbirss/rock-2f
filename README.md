@@ -9,7 +9,7 @@ https://github.com/markbirss/lora-starter-edition-sx1262-i2c
 Rock 2F support recently landed
 https://github.com/armbian/build/pull/7820
 
-Compile a OS Image (Noble)
+Compile a OS Image (Noble) - compiled images were not yet available
 ```
 sudo ./compile.sh build BOARD=rock-2f BRANCH=vendor BUILD_DESKTOP=yes BUILD_MINIMAL=no DESKTOP_APPGROUPS_SELECTED= DESKTOP_ENVIRONMENT=gnome DESKTOP_ENVIRONMENT_CONFIG_NAME=config_base KERNEL_CONFIGURE=no RELEASE=noble DOWNLOAD_MIRROR=us
 ```
