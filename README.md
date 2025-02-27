@@ -105,7 +105,7 @@ Lora:
     pin: 12
     gpiochip: 1
     line: 13
-  IRQ:            # DIO1    PIN_15 -> chip 4, line 12
+  IRQ:            # DIO1    PIN_15 -> chip 4, line 22
     pin: 15
     gpiochip: 4
     line: 22
