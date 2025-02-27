@@ -33,7 +33,7 @@ overlay_prefix=rk35xx
 fdtfile=rockchip/rk3528-rock-2f.dtb
 rootdev=UUID=6457ccf1-edc1-4c9c-935f-fdb8dc320999
 rootfstype=ext4
-overlays=rk3528-spi0-cs1-spidev, rk3528-i2c0-m1
+overlays=rk3528-spi0-cs1-spidev rk3528-i2c0-m1
 usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 ```
 
